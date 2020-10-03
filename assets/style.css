@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+/* got rid of h1 span element and replaced <h1>Horiseon</h1> */
 
 .header {
     padding: 20px;
@@ -15,15 +16,7 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
+/* .header inline block not needed */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,7 +31,7 @@ body {
 
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 16px;
 }
 
 a {
@@ -47,7 +40,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .hero {
